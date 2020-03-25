@@ -1,0 +1,18 @@
+.articles--item {
+	display: flex;
+	flex-direction: column;
+	background-color: #cecece;
+	grid-row-end: auto;
+}
+
+.articles--item img {
+	width: 100%;
+}
+
+.large {
+	grid-row-end: span 3;
+}
+
+.short {
+	grid-row-end: span 2;
+}
