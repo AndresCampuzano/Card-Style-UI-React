@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/Header.css';
+import menuIcon from './icons/icons8-menu.svg';
 
 const Header = () => {
 	return (
@@ -19,11 +20,7 @@ const Header = () => {
 						<li>Entertainment</li>
 					</ul>
 				</div>
-				<img
-					src='./icons/icons8-menu.svg'
-					className='header--menu'
-					alt='menu'
-				/>
+				<img src={menuIcon} className='header--menu' alt='menu' />
 			</header>
 		</>
 	);

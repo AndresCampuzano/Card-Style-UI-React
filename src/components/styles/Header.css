@@ -25,10 +25,11 @@
 .header--list {
 	display: flex;
 	list-style: none;
+	padding: 0;
 }
 
 .header div li {
-	margin: 20px;
+	margin: 3%;
 	text-transform: uppercase;
 	font-weight: bold;
 	color: rgb(156, 156, 156);

@@ -26,6 +26,7 @@
 }
 
 .footer .links {
+	display: flex;
 	flex-direction: column;
 }
 
@@ -33,6 +34,7 @@
 	text-decoration: none;
 	color: white;
 	text-transform: uppercase;
+	margin: 5px;
 }
 
 .footer .social {
@@ -53,3 +55,11 @@
 	font-weight: bold;
 	color: white;
 }
+
+.footer--social-icons img {
+	width: 30px;
+}
+
+/* .footer--social-icons .instagram {
+	background-image: url(../icons/icons8-instagram.svg);
+} */

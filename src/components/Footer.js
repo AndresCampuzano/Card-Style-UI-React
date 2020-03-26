@@ -1,6 +1,11 @@
 import React from 'react';
 import './styles/Footer.css';
 
+import instagramIcon from './icons/icons8-instagram.svg';
+import pinterestIcon from './icons/icons8-pinterest-p.svg';
+import twitterIcon from './icons/icons8-twitter.svg';
+import facebookIcon from './icons/icons8-facebook-f.svg';
+
 const Footer = () => {
 	return (
 		<>
@@ -14,25 +19,31 @@ const Footer = () => {
 						<p>Component based UI Kit</p>
 					</div>
 					<div className='links'>
-						<a href='#'>Technology</a>
-						<a href='#'>Ideas</a>
+						<a href='/'>Technology</a>
+						<a href='/'>Ideas</a>
 					</div>
 					<div className='links'>
-						<a href='#'>Leadership</a>
-						<a href='#'>Video</a>
+						<a href='/'>Leadership</a>
+						<a href='/'>Video</a>
 					</div>
 					<div className='links'>
-						<a href='#'>News</a>
-						<a href='#'>Finance</a>
+						<a href='/'>News</a>
+						<a href='/'>Finance</a>
 					</div>
 					<div className='links'>
-						<a href='#'>Entertainment</a>
+						<a href='/'>Entertainment</a>
 					</div>
 					<div className='social'>
-						<p>Follow us: X X X X</p>
+						<div className='footer--social-icons'>
+							Follow us:{' '}
+							<img src={instagramIcon} alt='instagramIcon' />
+							<img src={pinterestIcon} alt='pinterestIcon' />
+							<img src={twitterIcon} alt='twitterIcon' />
+							<img src={facebookIcon} alt='facebookIcon' />
+						</div>
 						<form>
-							<input type='text' id placeholder='Your E-mail' />
-							<button type='submit'>Suscribe</button>
+							<input type='text' placeholder='Your E-mail' />
+							<button type='submit'>Subscribe</button>
 						</form>
 					</div>
 				</footer>
@@ -46,30 +57,32 @@ const Footer = () => {
 							<p>Component based UI Kit</p>
 						</div>
 						<div className='links'>
-							<a href='#'>Technology</a>
-							<a href='#'>Ideas</a>
-							<a href='#'>Entertainment</a>
+							<a href='/'>Technology</a>
+							<a href='/'>Ideas</a>
+							<a href='/'>Entertainment</a>
 						</div>
 						<div className='links'>
-							<a href='#'>Leadership</a>
-							<a href='#'>Video</a>
+							<a href='/'>Leadership</a>
+							<a href='/'>Video</a>
 						</div>
 						<div className='links'>
-							<a href='#'>News</a>
-							<a href='#'>Finance</a>
+							<a href='/'>News</a>
+							<a href='/'>Finance</a>
 						</div>
 					</div>
 					<div className='social'>
 						<div>
 							<form>
-								<input
-									type='text'
-									id
-									placeholder='Your E-mail'
-								/>
-								<button type='submit'>Suscribe</button>
+								<input type='text' placeholder='Your E-mail' />
+								<button type='submit'>Subscribe</button>
 							</form>
-							<p>Follow us: X X X X</p>
+							<div className='footer--social-icons'>
+								Follow us:{' '}
+								<img src={instagramIcon} alt='instagramIcon' />
+								<img src={pinterestIcon} alt='pinterestIcon' />
+								<img src={twitterIcon} alt='twitterIcon' />
+								<img src={facebookIcon} alt='facebookIcon' />
+							</div>
 						</div>
 					</div>
 				</footer>
@@ -87,26 +100,40 @@ const Footer = () => {
 								<form>
 									<input
 										type='text'
-										id
 										placeholder='Your E-mail'
 									/>
-									<button type='submit'>Suscribe</button>
+									<button type='submit'>Subscribe</button>
 								</form>
-								<p>Follow us: X X X X</p>
+								<div className='footer--social-icons'>
+									Follow us:{' '}
+									<img
+										src={instagramIcon}
+										alt='instagramIcon'
+									/>
+									<img
+										src={pinterestIcon}
+										alt='pinterestIcon'
+									/>
+									<img src={twitterIcon} alt='twitterIcon' />
+									<img
+										src={facebookIcon}
+										alt='facebookIcon'
+									/>
+								</div>
 							</div>
 						</div>
 					</div>
 					<div className='links--group-phone'>
 						<div className='links'>
-							<a href='#'>Technology</a>
-							<a href='#'>Ideas</a>
-							<a href='#'>Entertainment</a>
-							<a href='#'>Leadership</a>
+							<a href='/'>Technology</a>
+							<a href='/'>Ideas</a>
+							<a href='/'>Entertainment</a>
+							<a href='/'>Leadership</a>
 						</div>
 						<div className='links'>
-							<a href='#'>Video</a>
-							<a href='#'>News</a>
-							<a href='#'>Finance</a>
+							<a href='/'>Video</a>
+							<a href='/'>News</a>
+							<a href='/'>Finance</a>
 						</div>
 					</div>
 				</footer>

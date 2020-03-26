@@ -36,7 +36,8 @@
 
 	.responsive-tablet div {
 		width: 100%;
-		justify-content: space-between;
+		/* justify-content: space-between; */
+		display: flex;
 	}
 
 	.responsive-tablet .social div {
@@ -81,5 +82,10 @@
 	}
 	.links--group-phone .links:nth-last-child(1) {
 		margin-left: 20px;
+	}
+
+	.responsive-phone .social form input {
+		margin-top: 25px;
+		margin-bottom: 25px;
 	}
 }
