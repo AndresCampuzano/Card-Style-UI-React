@@ -21,55 +21,55 @@ class App extends Component {
 					<ArticleItem
 						image={evoImage}
 						title='Using banner stands to increase trade show traffic'
-						text='Using banner stands to increase trade show traffic'
+						text='There is a lot of exciting stuff going on in the stars above us that makes astronomy so much fun.'
 						sizeGrid={true}
 					/>
 					<ArticleItem
 						image={phoneImage}
-						title='Search engine optimization and advertising'
-						text='Using banner stands to increase trade show traffic'
+						title='Search Engine Optimization And Advertising'
+						text='There is a lot of exciting stuff going on in the stars above us that makes astronomy so much fun.'
 						sizeGrid={false}
 					/>
 					<ArticleItem
 						image={watchImage}
-						title='Using banner stands to increase trade show traffic'
-						text='Using banner stands to increase trade show traffic'
+						title='How to Write A Good Headline For Facebook Ads'
+						text='There is a lot of exciting stuff going on in the stars above us that makes astronomy so much fun.'
 						sizeGrid={true}
 					/>
 					<ArticleItem
 						image={tabImage}
-						title='Using banner stands to increase trade show traffic'
-						text='Using banner stands to increase trade show traffic'
+						title='15 Tips To Increase Your Adwords Profits'
+						text='There is a lot of exciting stuff going on in the stars above us that makes astronomy so much fun.'
 						sizeGrid={true}
 					/>
 					<ArticleItem
 						image={droneImage}
-						title='Using banner stands to increase trade show traffic'
-						text='Using banner stands to increase trade show traffic'
+						title='6 Powerful Tips For Creating Testimonials That Sell Your Products Fast'
+						text='There is a lot of exciting stuff going on in the stars above us that makes astronomy so much fun.'
 						sizeGrid={false}
 					/>
 					<ArticleItem
 						image={evoImage}
 						title='Using banner stands to increase trade show traffic'
-						text='Using banner stands to increase trade show traffic'
+						text='There is a lot of exciting stuff going on in the stars above us that makes astronomy so much fun.'
 						sizeGrid={true}
 					/>
 					<ArticleItem
 						image={tabImage}
-						title='Using banner stands to increase trade show traffic'
-						text='Using banner stands to increase trade show traffic'
+						title='15 Tips To Increase Your Adwords Profits'
+						text='There is a lot of exciting stuff going on in the stars above us that makes astronomy so much fun.'
 						sizeGrid={true}
 					/>
 					<ArticleItem
 						image={watchImage}
-						title='Using banner stands to increase trade show traffic'
-						text='Using banner stands to increase trade show traffic'
+						title='How to Write A Good Headline For Facebook Ads'
+						text='There is a lot of exciting stuff going on in the stars above us that makes astronomy so much fun.'
 						sizeGrid={true}
 					/>
 					<ArticleItem
 						image={phoneImage}
-						title='Using banner stands to increase trade show traffic'
-						text='Using banner stands to increase trade show traffic'
+						title='Search Engine Optimization And Advertising'
+						text='There is a lot of exciting stuff going on in the stars above us that makes astronomy so much fun.'
 						sizeGrid={false}
 					/>
 				</Articles>

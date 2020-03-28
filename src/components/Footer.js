@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './styles/Footer.css';
 
 import instagramIcon from './icons/icons8-instagram.svg';
@@ -35,11 +36,15 @@ const Footer = () => {
 					</div>
 					<div className='social'>
 						<div className='footer--social-icons'>
-							Follow us:{' '}
-							<img src={instagramIcon} alt='instagramIcon' />
-							<img src={pinterestIcon} alt='pinterestIcon' />
-							<img src={twitterIcon} alt='twitterIcon' />
-							<img src={facebookIcon} alt='facebookIcon' />
+							<p>Follow us: </p>
+							<i className='fab fa-instagram'></i>{' '}
+							<i className='fab fa-pinterest-p'></i>{' '}
+							<i className='fab fa-twitter'></i>{' '}
+							<i className='fab fa-facebook-f'></i>
+							{/* <img src={instagramIcon} alt='instagramIcon' /> */}
+							{/* <img src={pinterestIcon} alt='pinterestIcon' /> */}
+							{/* <img src={twitterIcon} alt='twitterIcon' /> */}
+							{/* <img src={facebookIcon} alt='facebookIcon' /> */}
 						</div>
 						<form>
 							<input type='text' placeholder='Your E-mail' />
