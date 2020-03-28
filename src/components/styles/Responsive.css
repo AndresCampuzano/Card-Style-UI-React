@@ -46,6 +46,11 @@
 		margin-top: 15px;
 	}
 
+	.responsive-tablet .social div form {
+		display: flex;
+		margin-right: 30px;
+	}
+
 	.responsive-tablet .social div p {
 		margin-left: 15px;
 	}
@@ -72,9 +77,9 @@
 		align-items: flex-start;
 	}
 
-	.responsive-phone div {
+	/* .responsive-phone div {
 		flex-direction: column;
-	}
+	} */
 
 	.links--group-phone {
 		margin-top: 10px;
@@ -88,4 +93,8 @@
 		margin-top: 25px;
 		margin-bottom: 25px;
 	}
+
+	/* .footer--social-icons {
+		display: flex;
+	} */
 }

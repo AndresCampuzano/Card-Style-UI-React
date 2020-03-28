@@ -2,10 +2,10 @@ import React from 'react';
 
 import './styles/Footer.css';
 
-import instagramIcon from './icons/icons8-instagram.svg';
-import pinterestIcon from './icons/icons8-pinterest-p.svg';
-import twitterIcon from './icons/icons8-twitter.svg';
-import facebookIcon from './icons/icons8-facebook-f.svg';
+// import instagramIcon from './icons/icons8-instagram.svg';
+// import pinterestIcon from './icons/icons8-pinterest-p.svg';
+// import twitterIcon from './icons/icons8-twitter.svg';
+// import facebookIcon from './icons/icons8-facebook-f.svg';
 
 const Footer = () => {
 	return (
@@ -82,11 +82,10 @@ const Footer = () => {
 								<button type='submit'>Subscribe</button>
 							</form>
 							<div className='footer--social-icons'>
-								Follow us:{' '}
-								<img src={instagramIcon} alt='instagramIcon' />
-								<img src={pinterestIcon} alt='pinterestIcon' />
-								<img src={twitterIcon} alt='twitterIcon' />
-								<img src={facebookIcon} alt='facebookIcon' />
+								Follow us: <i className='fab fa-instagram'></i>{' '}
+								<i className='fab fa-pinterest-p'></i>{' '}
+								<i className='fab fa-twitter'></i>{' '}
+								<i className='fab fa-facebook-f'></i>
 							</div>
 						</div>
 					</div>
@@ -111,19 +110,10 @@ const Footer = () => {
 								</form>
 								<div className='footer--social-icons'>
 									Follow us:{' '}
-									<img
-										src={instagramIcon}
-										alt='instagramIcon'
-									/>
-									<img
-										src={pinterestIcon}
-										alt='pinterestIcon'
-									/>
-									<img src={twitterIcon} alt='twitterIcon' />
-									<img
-										src={facebookIcon}
-										alt='facebookIcon'
-									/>
+									<i className='fab fa-instagram'></i>{' '}
+									<i className='fab fa-pinterest-p'></i>{' '}
+									<i className='fab fa-twitter'></i>{' '}
+									<i className='fab fa-facebook-f'></i>
 								</div>
 							</div>
 						</div>
